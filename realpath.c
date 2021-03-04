@@ -49,8 +49,8 @@ int main( int argc, char *argv[] )
 static void usage(const char *pn)
 {
     printf( CYAN "realpath %s\e[0m\n" NORMAL, build_git_version );
-    printf( BLACK "compiled on %s\n" NORMAL, build_git_time );
-    printf( BLACK "commit SHA: %s\n" NORMAL, build_git_sha );
+    printf( BRIGHT BLACK "compiled on %s\n" NORMAL, build_git_time );
+    printf( BRIGHT BLACK "commit SHA: %s\n" NORMAL, build_git_sha );
     putchar( '\n' );
     printf("Usage: %s <filename> [ <filename2> ... ]\n", pn);
 }

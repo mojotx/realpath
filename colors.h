@@ -1,14 +1,15 @@
 #ifndef MAJ_COLOR_H
 #define MAJ_COLOR_H
 
-#define BLACK   "\e[01;30m"
-#define RED     "\e[01;31m"
-#define GREEN   "\e[01;32m"
-#define YELLOW  "\e[01;33m"
-#define BLUE    "\e[01;34m"
-#define MAGENTA "\e[01;35m"
-#define CYAN    "\e[01;36m"
-#define WHITE   "\e[01;37m"
+#define BRIGHT  "\e[1m"
+#define BLACK   "\e[30m"
+#define RED     "\e[31m"
+#define GREEN   "\e[32m"
+#define YELLOW  "\e[33m"
+#define BLUE    "\e[34m"
+#define MAGENTA "\e[35m"
+#define CYAN    "\e[36m"
+#define WHITE   "\e[37m"
 #define NORMAL  "\e[0m"
 
 #if 0
